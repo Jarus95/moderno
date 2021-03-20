@@ -71,3 +71,62 @@
        }
    }
 }
+
+.search{
+    background-image: url(../images/search-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 530px;
+  
+
+    .search__inner{
+        padding: 145px 0 145px;
+        text-align: center;
+        color: #fff;
+
+        .search__inner-title{
+            font-size: 48px;
+            font-family: 'Roboto-Bold';
+            margin-bottom: 33px;
+        }
+
+        .search__inner-subtitle{
+            font-family: 'Roboto-Medium';
+            font-size: 20px;
+            margin-bottom: 55px;
+        }
+
+        .search__inner-form{
+            margin: 0 auto;
+            position: relative;
+            max-width: 670px;
+
+            
+        }
+        .search__inner-input{
+            box-shadow: 0px 1px 10px 0px rgba(124, 178, 64, 0.75);
+            border-radius: 4px;
+            width: 670px;
+            height: 56px;
+
+        }
+
+        .search__inner-btn{
+            background-color: transparent;
+            color: transparent;
+            position: absolute;
+            border: none;
+            right: 12px;
+            top: 16px;
+            cursor: pointer;
+        }
+
+        
+
+    
+    }
+}
+
+
+  
